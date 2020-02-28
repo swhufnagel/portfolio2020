@@ -1,0 +1,117 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav ul a,
+ nav .brand-logo {
+   color:#eceff1;
+   margin-top: 0;
+ }
+ .parallaxTry {
+  /* The image used */
+  background: no-repeat url("../assets/13438952_10157027950280335_1023770913506391617_n\ \(1\).jpg");
+  /* Set a specific height */
+  min-height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaxTry2 {
+  /* The image used */
+  background: no-repeat url("../assets/denverBackground.png");
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaxTry3 {
+  /* The image used */
+  background: no-repeat url("../assets/skylinedenver.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.activator{
+  min-height: 200px;
+  max-height:200px;
+}
+#myName{
+  font-family: cursive;
+  font-size: 88px;
+}
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color:#b2dfdb;
+ }
+#tagline{
+  margin-top:30%;
+  text-shadow: 2px 2px #000000;
+  color:white;
+}
+ #welcome {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }
